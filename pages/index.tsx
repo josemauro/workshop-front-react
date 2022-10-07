@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Lista from '../src/components/Lista/Lista';
 
 function Botao(props){
   return <a href="#"> {props.titulo} </a>;
@@ -7,7 +8,8 @@ function Botao(props){
 const Home: NextPage = () => {
   return (
     <>
-      <div> Conteudo </div>
+      <Lista></Lista>
+
     </>
   )
 }
