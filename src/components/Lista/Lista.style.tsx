@@ -30,7 +30,7 @@ export const Informacoes = styled('div')`
 `;
 
 export const Nome = styled('h3')`
-    margin: ${({theme}) => theme.spacing(2, 0, 0, 0)}s;
+    margin: ${({theme}) => theme.spacing(2, 0, 0, 0)};
 `;
 
 export const Valor = styled('p')`
@@ -43,3 +43,8 @@ export const Valor = styled('p')`
 export const Descricao = styled('p')`
     word-break: break-word;    
 `;
+
+export const ListaVazia = styled('h2')`
+    text-align: center;
+    padding: ${({theme}) => theme.spacing(20, 0 )};
+`
